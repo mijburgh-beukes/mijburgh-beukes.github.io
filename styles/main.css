@@ -9,6 +9,33 @@
 */
 
 body {
-    font-family: 'IBM Plex Sans', -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
-    background-color: aquamarine;
+    font-family: 'IBM Plex Sans';
+    /* Allready taken care of by bootstrap resetting after reading documentation::    
+    -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji */
+    background-color: white;
+    font-size: 15pt;
+}
+
+main {
+    background-color: white;
+    padding-top: 20px;
+}
+
+h1 {
+    /* Decided to add padding to the parent element to achieve desired spacing */
+    /*padding: 20px 0px;*/
+    /*line-height: 1.15;*/
+}
+
+header {
+    padding: 20px 0px;
+    border-bottom: 4px;
+}
+
+img {
+    padding: 0px 10%; 
+}
+
+.active {
+    font-weight: 600;
 }
