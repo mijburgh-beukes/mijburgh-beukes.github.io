@@ -16,9 +16,17 @@ body {
     font-size: 15pt;
 }
 
+header {
+    
+}
+
 main {
     background-color: white;
     padding-top: 20px;
+}
+
+footer {
+    padding: 20px 0px 10px;
 }
 
 h1 {
@@ -27,15 +35,14 @@ h1 {
     /*line-height: 1.15;*/
 }
 
-header {
-    padding: 20px 0px;
-    border-bottom: 4px;
-}
-
 img {
     padding: 0px 10%; 
 }
 
 .active {
     font-weight: 600; 
+}
+
+#contact-text {
+    text-decoration: none;
 }
