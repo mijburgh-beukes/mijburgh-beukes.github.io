@@ -8,6 +8,8 @@
     font-family: 'IBM Plex Sans', sans-serif;
 */
 
+/* Structural elements*/
+
 body {
     font-family: 'IBM Plex Sans';
     /* Allready taken care of by bootstrap resetting after reading documentation::    
@@ -29,6 +31,8 @@ footer {
     padding: 20px 0px 10px;
 }
 
+/* Individual elements */
+
 h1 {
     /* Decided to add padding to the parent element to achieve desired spacing */
     /*padding: 20px 0px;*/
@@ -45,4 +49,8 @@ img {
 
 #contact-text {
     text-decoration: none;
+}
+
+.navbar-brand {
+    margin-right: 0.2em;
 }
