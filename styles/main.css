@@ -43,12 +43,16 @@ h1 {
     font-size: 2em;
 }
 
+h2 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
 p {
     font-size: 1.2em;
 }
 
 img {
-    padding: 0% 10%;
     margin-bottom: 1em;
 }
 
@@ -58,4 +62,22 @@ img {
 
 #contact-text {
     text-decoration: none;
+}
+
+.blog-anchor {
+    font-size: 0.8em;
+    line-height: 1em;
+}
+
+.blog-head {
+    padding-bottom: 0;
+    font-weight: 600;
+}
+
+.mug {
+    padding: 0% 10%; 
+}
+
+figcaption {
+    margin-bottom: 2em;
 }
