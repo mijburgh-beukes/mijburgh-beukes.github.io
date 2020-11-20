@@ -81,3 +81,29 @@ img {
 figcaption {
     margin-bottom: 2em;
 }
+
+.blog-anchor.sticky {
+    position: sticky;
+    top: 10px;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0px;
+}
+
+.mb-4 {
+    margin-bottom: ($spacer * 1.5) !important;
+}
+
+.mb-n2 {
+    margin-bottom: -0.5rem !important;
+  }
+
+.mt-4 {
+    margin-top: ($spacer * 1.5) !important;;
+}
+
+.mt-5 {
+    margin-top: ($spacer * 3) !important;;
+}
