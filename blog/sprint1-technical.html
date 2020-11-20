@@ -91,33 +91,33 @@
                   <figcaption>Stock Audi A4</figcaption>
                 </figure>
             
-                <p>We can apply red paint <strong>class="paint-red"</strong> to both of them. They are different cars, but they're styled the same way.</p>
+                <p>We can apply red paint <code>class="paint-red"</code> to both of them. They are different cars, but they're styled the same way.</p>
             
                 <figure>
                   <img src="../img/PaintRed-A1.jpg" alt="Red Audi A1" class="img-fluid">
-                  <figcaption><strong>.paint-red</strong> Audi A1</figcaption>
+                  <figcaption><code>.paint-red</code> Audi A1</figcaption>
                 </figure>
                 <figure>
                   <img src="../img/PaintRed-A4.jpg" alt="Red Audi A4" class="img-fluid">
-                  <figcaption><strong>.paint-red</strong> Audi A4</figcaption>
+                  <figcaption><code>.paint-red</code> Audi A4</figcaption>
                 </figure>
             
-                <p>Next we can create paint option that is unique to the different models: <strong>A1 class="paint"</strong> and <strong>A4 class="paint"</strong>. In the the CSS file, you'd create a selector that targets these specific elements to give them their unique color: <strong>A1.paint { color: bright-gold;}</strong> and <strong>A4.paint { color: pearl-charcoal;}</strong>.</p>
+                <p>Next we can create paint option that is unique to the different models: <code>&lt;A1 class="paint"&gt;</code> and <code>&lt;A4 class="paint"&gt;</code>. In the the CSS file, you'd create a selector that targets these specific elements to give them their unique color: <code>A1.paint { color: bright-gold;}</code> and <code>A4.paint { color: pearl-charcoal;}</code>.</p>
             
                 <figure>
                   <img src="../img/A1.Paint.jpg" alt="Bright Gold Audi A1" class="img-fluid">
-                  <figcaption><strong>A1.paint</strong> Audi A1</figcaption>
+                  <figcaption><code>A1.paint</code> Audi A1</figcaption>
                 </figure>
                 <figure>
                   <img src="../img/A4.Paint.jpg" alt="Pearl Charcoal Audi A4" class="img-fluid">
-                  <figcaption><strong>A4.paint</strong> Audi A4</figcaption>
+                  <figcaption><code>A4.paint</code> Audi A4</figcaption>
                 </figure>
             
                 <p>Now, we haven't specified a generic paint class in our CSS, so applying class="paint" to anything other than an A1 or A4 in this example, will leave it devoid of styling.</p>
             
                 <h2 class="mb-n2 mt-5">Building on existing Classes</h2>
             
-                <p>Let's give the A4 a butt-lift. If we build a new class="Avant", this changes the A4 'element' from a white Sedan to a red Station Wagon. The CSS would look like <strong>.Avant { color: red; shape: wagon;}</strong>.</p>
+                <p>Let's give the A4 a butt-lift. If we build a new class="Avant", this changes the A4 'element' from a white Sedan to a red Station Wagon. The CSS would look like <code>.Avant { color: red; shape: wagon;}</code>.</p>
             
                 <figure>
                   <img src="../img/A4.jpg" alt="Base Audi A4" class="img-fluid">
@@ -125,33 +125,33 @@
                 </figure>
                 <figure>
                   <img src="../img/A4.Avant.jpg" alt="Red Audi A4 Avant" class="img-fluid">
-                  <figcaption><strong>.Avant</strong> Audi A4</figcaption>
+                  <figcaption><code>.Avant</code> Audi A4</figcaption>
                 </figure>
             
-                <p>Now let's change things up by making the car more sporty. We can give it a different colour, add window tints and call it an S4 Avant. The html would be <strong>A4 class="Avant S4"</strong> and the CSS would be <strong>.Avant.S4 {color: midnight-blue; windows:&nbsp;tinted;}</strong>.</p>
+                <p>Now let's change things up by making the car more sporty. We can give it a different colour, add window tints and call it an S4 Avant. The html would be <code>&lt;A4 class="Avant S4"&gt;</code> and the CSS would be <code>.Avant.S4 {color: midnight-blue; windows:&nbsp;tinted;}</code>.</p>
             
                 <figure>
                   <img src="../img/S4.Avant.jpg" alt="Midnight Blue Audi S4 Avant" class="img-fluid">
-                  <figcaption><strong>.Avant.S4</strong> Audi A4</figcaption>
+                  <figcaption><code>.Avant.S4</code> Audi A4</figcaption>
                 </figure>
             
-                <p>The S4 isn't racey enough, so let's make an 'R' model. We want to keep both the body shape - <strong>.Avant</strong> -  and the tinted windows <strong>S4</strong>, but we want to change the colour and add a wide body kit. The html would be <strong>A4 class="Avant R S4</strong> and the CSS would be <strong>.Avant.R.S4 { colour: green; kit: wide-body;}</strong>.</p>
+                <p>The S4 isn't racey enough, so let's make an 'R' model. We want to keep both the body shape - <code>.Avant</code> -  and the tinted windows <code>.S4</code>, but we want to change the colour and add a wide body kit. The html would be <code>&lt;A4 class="Avant R S4&gt;</code> and the CSS would be <code>.Avant.R.S4 { colour: green; kit: wide-body;}</code>.</p>
             
                 <figure>
                   <img src="../img/R.S4.Avant.jpg" alt="Green Audi RS4 Avant" class="img-fluid">
-                  <figcaption><strong>.Avant.R.S4</strong> Audi A4</figcaption>
+                  <figcaption><code>.Avant.R.S4</code> Audi A4</figcaption>
                 </figure>
             
                 <p>By combining classes like this, you can build a base style (.Avant) with all the necessary attributes, and just add to and/or change attributes for different effects, but keeping some things in tact.</p>
             
                 <h2 class="mb-n2 mt-5">Customization with an id</h2>
             
-                <p>An id selector is used in the same way as a single class <strong>A1 id="look-custom"</strong>, but should only be used once on a single item for an entire page.</p>
-                <p>This can be thought of as getting a custom paint job and contrasting roof colour for your Audi A1. The CSS would look like this: <strong>#look-custom { paint: lime; roof: contrast;}</strong>.</p>
+                <p>An id selector is used in the same way as a single class <code>&lt;A1 id="look-custom"&gt;</code>, but should only be used once on a single item for an entire page.</p>
+                <p>This can be thought of as getting a custom paint job and contrasting roof colour for your Audi A1. The CSS would look like this: <code>#look-custom { paint: lime; roof: contrast;}</code>.</p>
             
                 <figure>
                   <img src="../img/A1.idCustom.jpg" alt="Custom Lime Audi A1" class="img-fluid">
-                  <figcaption><strong>#look-custom</strong> Audi A1</figcaption>
+                  <figcaption><code>#look-custom</code> Audi A1</figcaption>
                 </figure>
             
                 <p id="legends">Customising something means it should be unique, and trying to emulate it can lead to disappointment. Going to a body shop that uses sub par paint that looks the same as a custom job will end up with problems down the line. In the same way, <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#ID_Selectors" class="text-info">"Using the same ID multiple times in a document may appear to work for styling purposes, but don't do this. It results in invalid code, and will cause strange behavior in many places."</a> So be careful when you use id's. One of the most usefull ways to implement id's is to create page anchors. Click the link below to see how that works.</p>
