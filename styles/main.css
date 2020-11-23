@@ -54,6 +54,10 @@ h3 {
     font-weight: 600;
 }
 
+h4 {
+    font-weight: 600;
+}
+
 p {
     font-size: 1.2em;
 }
@@ -86,6 +90,7 @@ img {
 
 figcaption {
     margin-bottom: 2em;
+    text-align: right;
 }
 
 .blog-anchor.sticky {
@@ -113,3 +118,4 @@ figcaption {
 .mt-5 {
     margin-top: ($spacer * 3) !important;;
 }
+
