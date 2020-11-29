@@ -44,10 +44,101 @@
 
       <main>
         <div class="container">
+
+          <div class="row mb-4">
+            <div class="col-sm-3">
+              <p class="blog-anchor sticky"><span class="text-secondary">S3T5 :: 29.11.20</span>
+                <br>
+                <strong>Switch it up</strong>
+                <br>
+                <br>
+                <a href="#jsSprint" class="text-info">Top of the article ^</a>
+              </p>
+            </div>
+
+            <div class="col-sm-9">
+              <article>
+                <h1 class="blog-head" id="jsSprint">Content + Interactivity = Fun!</h1>
+                <h2 class="mb-n2 mt-4">HTML & CSS: The journalist and the designer</h2>
+                <p>Journalists are good at informing the public through dissemination of facts, in the process giving meaning to people's lives by clarifying what the consequences of those facts are.</p>
+
+                <p>Designers amplify this meaning by interpreting the story and presenting it in a manner that improves the uptake of the facts and helps generate emotions in the reader.</p>
+
+                <p>HTML is like the journalist, in that it supplies a browser with details of what specific pieces of content on the page are meant for. CSS is like the designer in that it helps create visual hierarchy and structures the layout of that content in aid of consuming and understanding the content more readily.</p>
+
+                <h2 class="mb-n2 mt-5">Flow control: The dreaded nappy</h2>
+                <p>A computer program's code is read from top to bottom, same as a list of instruction. Certain portions of the code can however be repeated by using loops.</p>
+                
+                <p>I'm a parent with a 2-year-old boy that's still in nappies. The nappy changing process would go something like this:</p>
+                <p>
+                  <ol>
+                    <li>Smell funky smell</li>
+                    <li>Look over at son who's giving me a naughty grin</li>
+                    <li>Pick son up and take him to the bathroom and get nappy supplies on the way</li>
+                    <li>Put peg on nose</li>
+                    <li>Undo nappy</li>
+                    <li>Grimace in disgust</li>
+                    <li>Get toilet paper/some form of wipe</li>
+                    <li>Start loop:
+                      <br><code>If (bum is dirty)<br>
+                        <ul>
+                          <li>Wipe</li>
+                          <li>Check</li>
+                        </ul>Else<ul>
+                          <li>Rejoice!</li>
+                          <li>Put dirty nappy and wipes in bin</li>
+                        </ul></code></li>
+                    <li>Wash hands</li>
+                    <li>Dress boy again</li>
+                    <li>Go help him to learn by playing with him</li>
+                  </ol>
+                </p>
+
+                <h2 class="mb-n2 mt-5">DOM: Trees, wonderful trees</h2>
+                
+                <figure>
+                  <img src="../img/domTree.jpg" alt="Tree in a field to illustrate DOM structure" class="img-fluid">
+                  <figcaption>Photo: Cristina Gottardi/unsplash.com</figcaption>
+                </figure>
+                
+                <p>The DOM represents the hierarchical structure of a document type using a tree diagram to present the location and order of specific elements/components of said document type. We can then use this tree diagram to directly interact with/manipulate these elements/components/objects through the use of the browser's DevTools interface.</p>
+                
+                <p>For instance, we can isolate a button in our HTML, give it a class, and change its styling dependent on that class in the css, all from within the browser's DevTools thanks to the DOM.</p>
+
+                <h2 class="mb-n2 mt-5">Data access: Simpler than the Dewey Decimal system</h2>
+                <p>An array is like 1 column <code>bookCase[]</code>, one object per 'cubicle'. In order to access data in the array, you have to specify the position (using integers from 0 upwards) of the cubicle you want to access, which returns the value stored in that cubicle, so that return <code>bookCase[cubicle#]</code>.</p>
+
+                <figure class="mt-5">
+                  <img src="../img/bookCase.jpg" alt="Single column bookcase" class="img-fluid">
+                  <figcaption>Photo: Mick Haupt/unsplash.com</figcaption>
+                </figure>
+                
+                <p>An object is similar to an array, as it contains a certain amount of properties and values, but you can target those properties by stating its key (in the form of a string) using either dot or bracket notation. For instance, let's take the object:<br><br><code>schoolLocker {<br>text book: Science,<br>lunchBox: empty<br>}</code><br><br>If you want to see what text book is in your locker, you'd write <code>return schoolLocker["text book"];</code>. Checking the status of you lunchbox would be <code>return schoolLocker.lunchbox;</code>.</p>
+                
+                <figure class="mt-5">
+                  <img src="../img/lockers.jpg" alt="School lockers" class="img-fluid">
+                  <figcaption>Photo: Moren Hsu/unsplash.com</figcaption>
+                </figure>
+
+                <p> The notation you use is important though. Whilst dot notation looks a lot cleaner and easier to read, it relies on you know the property beforehand. I you are accessing an objects data in a function by getting passed a property, you'd be best to use bracket notation, otherwise with dot notation you'll get an undefined error if that property doesn't exist.</p>
+
+                <h2 class="mb-n2 mt-5">JS functions: The automaton</h2>
+                <p>Functions are great for automating repetitive tasks. They are reusable pieces of code, that whenever they are invoked (called), they perform a series of tasks dependent on their inputs and conditions. There is no limit to how many times a function can be called on a specific page.</p>
+
+            </article>
+            <a href="#top" class="text-info">Top of page ^</a>
+            </div>
+          </div>
+
+          <div class="row">
+            <br class="mb-4">
+          </div>
           
           <div class="row mb-4">
             <div class="col-sm-3">
-              <p class="blog-anchor sticky"><span class="text-secondary">S2T4 :: 20.11.20</span><br><strong>CSS Concepts</strong></p>
+              <p class="blog-anchor sticky"><span class="text-secondary">S2T4 :: 20.11.20</span><br><strong>CSS Concepts</strong><br>
+                <br>
+                <a href="#css-concepts" class="text-info">Top of the article ^</a></p>
             </div>
             <div class="col-sm-9">
               <article>
@@ -128,7 +219,7 @@
                   <figcaption><code>#look-custom</code> Audi A1</figcaption>
                 </figure>
             
-                <p id="legends">Customising something means it should be unique, and trying to emulate it can lead to disappointment. Going to a body shop that uses sub par paint that looks the same as a custom job will end up with problems down the line. In the same way, <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#ID_Selectors" class="text-info">"Using the same ID multiple times in a document may appear to work for styling purposes, but don't do this. It results in invalid code, and will cause strange behavior in many places."</a> So be careful when you use id's. One of the most usefull ways to implement id's is to create page anchors. Click the link below to see how that works.</p>
+                <p>Customising something means it should be unique, and trying to emulate it can lead to disappointment. Going to a body shop that uses sub par paint that looks the same as a custom job will end up with problems down the line. In the same way, <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#ID_Selectors" class="text-info">"Using the same ID multiple times in a document may appear to work for styling purposes, but don't do this. It results in invalid code, and will cause strange behavior in many places."</a> So be careful when you use id's. One of the most usefull ways to implement id's is to create page anchors. Click the link below to see how that works.</p>
             </article>
             <a href="#top" class="text-info">Top of page ^</a>
             </div>
@@ -140,11 +231,13 @@
 
           <div class="row mb-4">
             <div class="col-sm-3">
-              <p class="blog-anchor sticky"><span class="text-secondary">S1T1 :: 10.11.10</span><br><strong>Stories and Legends</strong></p>
+              <p class="blog-anchor sticky"><span class="text-secondary">S1T1 :: 10.11.10</span><br><strong>Stories and Legends</strong><br>
+                <br>
+                <a href="#legends" class="text-info">Top of the article ^</a></p>
             </div>
             <div class="col-sm-9">
               <article>
-                <h1 class="blog-head">The Story of Te Houtaewa</h1>
+                <h1 class="blog-head" id="legends">The Story of Te Houtaewa</h1>
                 <h2 class="mb-n2 mt-4">E kore e mau i a koe, he wae kai pakiaka. <em>A foot accustomed to running over roots makes the speediest runner.</em><!-- (Optional SUB title) --></h2>
                 <!-- <h3>10 November 2010</h3> -->
                 
@@ -163,7 +256,7 @@
                   While Te Houtaewa was filling his baskets with kumara he was spotted stealing the kai (food). He was immediately recognised.
                 </p>
               </article>
-              <a href="#legends" class="text-info">Top of article ^</a>
+              <a href="#top" class="text-info">Top of page ^</a>
             </div>
           </div>
 
