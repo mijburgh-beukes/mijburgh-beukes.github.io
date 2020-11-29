@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+  <html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>MIJBURGH BEUKES :: TECHNICAL BLOGS</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <!--<link rel="stylesheet" href="styles/normalize.css">-->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="../styles/main.css">
+    </head>
+
+    <body id="top">
+      <header class="shadow-sm p-3 mb-5 bg-white rounded">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-white text-dark">
+            <a href="../index.html" class="navbar-brand"><strong>Mijburgh Beukes</strong> ::</a><!-- Will fix this later <span class="text-secondary" id="location">Graphic Designer</span> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a href="../index.html" class="nav-link text-secondary">Home</a></li>
+                <li class="nav-item dropdown nav-item active">
+                  <a href="#" class="nav-link dropdown-toggle text-secondary" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blogs <span class="sr-only">(current)</span></a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="sprint1-cultural.html">Cultural Blog</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Technical Blog</a>
+                  </div>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link disabled" tabindex="-1" aria-disabled="true">Sandbox</a></li>
+                <li class="nav-item"><a href="https://github.com/mijburgh-beukes" class="nav-link" target="_blank">Github</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <div class="container">
+          
+          <div class="row mb-4">
+            <div class="col-sm-3">
+              <p class="blog-anchor sticky"><span class="text-secondary">S3T5 :: 29.11.20</span>
+                <br>
+                <strong>Switch it up</strong>
+                <br>
+                <br>
+                <a href="#jsSprint" class="text-info">Top of the article ^</a>
+              </p>
+            </div>
+
+            <div class="col-sm-9">
+              <article>
+                <h1 class="blog-head" id="jsSprint">Content + Interactivity = Fun!</h1>
+                <h2 class="mb-n2 mt-4">HTML & CSS: The journalist and the designer</h2>
+                <p>Journalists are good at informing the public through dissemination of facts, in the process giving meaning to people's lives by clarifying what the consequences of those facts are.</p>
+
+                <p>Designers amplify this meaning by interpreting the story and presenting it in a manner that improves the uptake of the facts and helps generate emotions in the reader.</p>
+
+                <p>HTML is like the journalist, in that it supplies a browser with details of what specific pieces of content on the page are meant for. CSS is like the designer in that it helps create visual hierarchy and structures the layout of that content in aid of consuming and understanding the content more readily.</p>
+
+                <h2 class="mb-n2 mt-5">Flow control: The dreaded nappy</h2>
+                <p>A computer program's code is read from top to bottom, same as a list of instruction. Certain portions of the code can however be repeated by using loops.</p>
+                
+                <p>I'm a parent with a 2-year-old boy that's still in nappies. The nappy changing process would go something like this:</p>
+                <p>
+                  <ol>
+                    <li>Smell funky smell</li>
+                    <li>Look over at son who's giving me a naughty grin</li>
+                    <li>Pick son up and take him to the bathroom and get nappy supplies on the way</li>
+                    <li>Put peg on nose</li>
+                    <li>Undo nappy</li>
+                    <li>Grimace in disgust</li>
+                    <li>Get toilet paper/some form of wipe</li>
+                    <li>Start loop:
+                      <br><code>If (bum is dirty)<br>
+                        <ul>
+                          <li>Wipe</li>
+                          <li>Check</li>
+                        </ul>Else<ul>
+                          <li>Rejoice!</li>
+                          <li>Put dirty nappy and wipes in bin</li>
+                        </ul></code></li>
+                    <li>Wash hands</li>
+                    <li>Dress boy again</li>
+                    <li>Go help him to learn by playing with him</li>
+                  </ol>
+                </p>
+
+                <h2 class="mb-n2 mt-5">DOM: Trees, wonderful trees</h2>
+                
+                <figure>
+                  <img src="../img/domTree.jpg" alt="Tree in a field to illustrate DOM structure" class="img-fluid">
+                  <figcaption>Photo: Cristina Gottardi/unsplash.com</figcaption>
+                </figure>
+                
+                <p>The DOM represents the hierarchical structure of a document type using a tree diagram to present the location and order of specific elements/components of said document type. We can then use this tree diagram to directly interact with/manipulate these elements/components/objects through the use of the browser's DevTools interface.</p>
+                
+                <p>For instance, we can isolate a button in our HTML, give it a class, and change its styling dependent on that class in the css, all from within the browser's DevTools thanks to the DOM.</p>
+
+                <h2 class="mb-n2 mt-5">Data access: Simpler than the Dewey Decimal system</h2>
+                <p>An array is like 1 column <code>bookCase[]</code>, one object per 'cubicle'. In order to access data in the array, you have to specify the position (using integers from 0 upwards) of the cubicle you want to access, which returns the value stored in that cubicle, so that return <code>bookCase[cubicle#]</code>.</p>
+
+                <figure class="mt-5">
+                  <img src="../img/bookCase.jpg" alt="Single column bookcase" class="img-fluid">
+                  <figcaption>Photo: Mick Haupt/unsplash.com</figcaption>
+                </figure>
+                
+                <p>An object is similar to an array, as it contains a certain amount of properties and values, but you can target those properties by stating its key (in the form of a string) using either dot or bracket notation. For instance, let's take the object:<br><br><code>schoolLocker {<br>text book: Science,<br>lunchBox: empty<br>}</code><br><br>If you want to see what text book is in your locker, you'd write <code>return schoolLocker["text book"];</code>. Checking the status of you lunchbox would be <code>return schoolLocker.lunchbox;</code>.</p>
+                
+                <figure class="mt-5">
+                  <img src="../img/lockers.jpg" alt="School lockers" class="img-fluid">
+                  <figcaption>Photo: Moren Hsu/unsplash.com</figcaption>
+                </figure>
+
+                <p> The notation you use is important though. Whilst dot notation looks a lot cleaner and easier to read, it relies on you know the property beforehand. I you are accessing an objects data in a function by getting passed a property, you'd be best to use bracket notation, otherwise with dot notation you'll get an undefined error if that property doesn't exist.</p>
+
+                <h2 class="mb-n2 mt-5">JS functions: The automaton</h2>
+                <p>Functions are great for automating repetitive tasks. They are reusable pieces of code, that whenever they are invoked (called), they perform a series of tasks dependent on their inputs and conditions. There is no limit to how many times a function can be called on a specific page.</p>
+
+            </article>
+            <a href="#top" class="text-info">Top of page ^</a>
+            </div>
+          </div>
+
+          <div class="row">
+            <br class="mb-4">
+          </div>
+
+        </div>
+      </main>
+
+      <!-- Will come back to footer when I can figure out how to position it at the bottom of the page without affecting main content
+
+      <footer class="bg-dark">
+        <div class="container justify-content-center">
+          <address>
+            <p class="text-center"><a href="mailto:hello@beukescreative.kiwi" class="text-light" id="contact-text">Contact</a></p>
+          </address>
+        </div>
+      </footer> -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </body>
+
+  </html>
