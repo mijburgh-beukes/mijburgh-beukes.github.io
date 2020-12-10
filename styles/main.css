@@ -18,6 +18,11 @@ body {
     font-size: 15pt;
 }
 
+ul {
+    list-style-type: square;
+    padding-left: 1em;
+}
+
 header {
     
 }
